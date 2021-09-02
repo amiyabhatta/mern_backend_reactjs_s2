@@ -1,0 +1,16 @@
+{
+  "name": "testback",
+  "version": "1.0.0",
+  "description": "my test meren backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Amiya Bhatta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.11"
+  }
+}
