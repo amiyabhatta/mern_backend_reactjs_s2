@@ -52,7 +52,7 @@ userSchema.virtual("password")
           })
           .get(function(){
               return this._password;
-          }) 
+          })
 
 userSchema.methods = {
 
