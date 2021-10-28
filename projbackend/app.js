@@ -9,7 +9,7 @@ const cors = require("cors");
 
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user");
-// const categoryRoutes = require("./routes/category");
+const categoryRoutes = require("./routes/category");
 
 
 
@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(cors());
 app.use("/api",authRoutes);
 app.use("/api",userRoutes);
-// app.use("/api",categoryRoutes);
+app.use("/api",categoryRoutes);
 
 mongoose.connect(process.env.DATABASE, 
 {
